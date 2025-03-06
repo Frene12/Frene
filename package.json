@@ -1,0 +1,18 @@
+{
+  "name": "telegram-ai-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with AI (OpenAI API)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^4.0.0",
+    "telegraf": "^4.12.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
