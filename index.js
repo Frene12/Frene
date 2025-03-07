@@ -27,3 +27,6 @@ bot.on("text", async (ctx) => {
 });
 
 bot.launch();
+bot.command("help", (ctx) => {
+    ctx.reply("Я могу отвечать на твои вопросы. Просто напиши мне сообщение!");
+});
